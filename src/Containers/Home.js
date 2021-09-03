@@ -48,7 +48,7 @@ const Home = () => {
 
     useEffect(() => {
         const fetchData = async () => {
-            const res = await axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${place}&appid=b7f4df8ba6b30dcb40ebfbb1bab5b316`);
+            const res = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${place}&appid=b7f4df8ba6b30dcb40ebfbb1bab5b316`);
             console.log(res);
             if (unit === '°F') {
                 setTemp(Math.round((9 / 5) * (res.data.main.temp - 273) + 32));
