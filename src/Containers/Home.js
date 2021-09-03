@@ -189,7 +189,7 @@ const Home = () => {
                     </Container>
                 </Row>
             </Container>
-            <Container fluid="xl" className="r1 my-5 d-lg-none">
+            <Container fluid="xl" className=" my-5 d-lg-none">
                 <Row className="my-4">
                     <Col xs={12} className="my-2 d-flex justify-content-center">
                         <Input type="text" name="place" id="examplePlace" placeholder="Enter Place Name" onChange={(e) => setPlace(e.target.value)} />
@@ -201,7 +201,7 @@ const Home = () => {
                         </CustomInput>
                     </Col>
                 </Row>
-                <Row className="r r1 mx-sm-1 mx-md-2 py-4">
+                <Row className="r  mx-sm-1 mx-md-2 py-4">
                     <Container fluid="x">
                         <Row>
                             <Col xs={12} className="d-flex justify-content-center">
