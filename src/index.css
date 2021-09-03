@@ -1,13 +1,11 @@
-html
-{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
-html body
-{
-    background-image: url('./Containers/yue-su--WX6S7utock-unsplash.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+html body {
+  background-image: url("./assets/yue-su--WX6S7utock-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
