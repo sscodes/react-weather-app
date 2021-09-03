@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap");
+
+h1 {
+  margin-top: 4px;
+  font-size: 3.5rem;
+  font-family: "Azeret Mono", monospace;
+}
+
+.labelTxt {
+  font-size: 1.5rem;
+  font-family: "Azeret Mono", monospace;
+}
+
+.minmax {
+  font-size: 1.5rem;
+  font-family: "Azeret Mono", monospace;
+  font-weight: bolder;
+}
+
+.weatherType {
+  margin-top: 7px;
+  font-size: 2.5rem;
+  font-family: "Azeret Mono", monospace;
+  font-weight: bolder;
+}
+
+select#exampleCustomSelect {
+  padding: 0.5rem;
+  border-radius: 500px;
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+  background-color: rgb(208, 234, 255);
+}
+
+.r {
+  border: 5px solid black;
+  border-radius: 50px;
+  background-color: rgba(240, 248, 255, 0.7);
+}
+
+input#examplePlace {
+  border-radius: 500px;
+  height: 3rem;
+  width: 25rem;
+  background-color: rgb(208, 234, 255);
+}
+
+::placeholder {
+  color: red;
+  font-family: "Azeret Mono", monospace;
+}
